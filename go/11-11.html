@@ -101,38 +101,31 @@
           
 
 
- <!-- ABOUT US AREA START -->
-    <div class="ltn__about-us-area pt-50 pb-120">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 align-self-center">
-                    <div class="about-us-img-wrap about-img-left">
-                        <a href="/play.html"> 
-                        <img src="/assets/img/img1.png" alt="OvO Classic game"> </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="about-us-info-wrap">
-                        <div class="section-title-area ltn__section-title-2">
-    
-                            <h1 class="section-title">OvO Classic Unblocked Game</h1>
-                           <p>OvO is a super fun running game that students can play on their school Chromebooks without any restrictions.</p>
-                               <p>It offers an engaging experience that combines fun with mental and physical challenges, making it perfect for players of all skill levels. Dive into 52 themed stages, navigate through obstacles like death spikes, fire rockets, and teleportation portals, and aim to complete the game with lightning speed. OvO is the ultimate fast-paced platformer that will keep you on your toes!</p>
-                        <div class="about-author-info d-flex"> 
-                            <div class="author-name-designation  align-self-center mr-30">
-                            <a href="/play.html">
-                            <button class="btn theme-btn-1 btn-effect-1 text-uppercase"> Play Now! </button> </a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ABOUT US AREA END -->
+<!-- iframe Game -->
+<div class="container" style="padding-top:20px; padding-bottom:20px" align="Center">
 
-            </div>
+    <div class="row">
+      <div class="col-md-10">
+  <iframe class="gm-iframe" id="gm-area" src="https://www.pomu.com/embed/11-11" width="810" height="540" scrolling="none" frameborder="0" allowfullscreen></iframe>
+   <div style="padding-top: 10px;" class="container" align="Center"> 
+      <button  class="btn theme-btn-1 btn-effect-1 text-uppercase" onclick="openFullscreen();">FullScreen</button>
+
+   </div>
+
+<script>
+var elem = document.getElementById("gm-area");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
+</div>
+
 
     <div class="row ltn__tab-product-slider-one-active--- slick-arrow-1">
 
